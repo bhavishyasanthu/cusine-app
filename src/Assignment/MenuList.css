@@ -1,0 +1,53 @@
+#mainContainer {
+  width: 100%;
+  margin: 15px;
+}
+#container {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+#topbar {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(29, 70, 5);
+}
+#sideBar {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 3px 5px rgb(36, 29, 29);
+  border: 1px solid rgb(199, 159, 159);
+  border-radius: 5px;
+  padding: 3px;
+  width: 15%;
+  margin-right: 30px;
+  height: 50%;
+}
+#inputWrapper {
+  width: 150px;
+}
+
+#itemCard {
+  display: flex;
+  border: 1px solid rgb(146, 141, 141);
+  border-radius: 10px;
+  flex-direction: column;
+  width: 22%;
+  margin: 5px;
+  padding: 3px;
+  height: 250px;
+}
+
+#itemCard:hover {
+  box-shadow: 1px 3px 5px rgb(63, 62, 62);
+  transform: scale(1.03);
+}
+#menuList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+div img {
+  border-radius: 10px;
+}
